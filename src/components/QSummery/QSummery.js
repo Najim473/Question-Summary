@@ -15,11 +15,11 @@ const summary = [
 function QSummery() {
     return (
         <div>
-            <div className={`${qsStyle.container}`}>
-                <div className={` ${qsStyle.groupImg}`}>
+            <div className={qsStyle.container}>
+                <div className={qsStyle.groupImg}>
                     <img src={groupImg} alt="" />
                 </div>
-                <div className={` ${qsStyle.text}`}>
+                <div className={qsStyle.text}>
                     <header>Great! Here's a short summary based on your answers.</header>
                     <div style={{ display: 'flex', flexDirection: 'column' }}>
                         <div className={` d-flex ${qsStyle.summary}`}>
